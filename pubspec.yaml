@@ -1,0 +1,99 @@
+name: pfk
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=1.19.0 <3.0.0"
+
+dependencies:
+  
+  rflutter_alert:
+    git: git://github.com/RatelHub/rflutter_alert.git
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  firebase_auth: ^0.16.1
+  flutter_auth_buttons: ^0.3.1
+  cloud_firestore: ^0.13.6
+  provider: ^3.1.0
+  flutter_facebook_login: ^3.0.0
+  flutter_boom_menu: ^1.0.2
+  firebase_database: ^3.1.6
+  splashscreen: ^1.2.0
+  shimmer: ^1.0.1
+  flutter_signin_button: ^1.0.0
+  google_sign_in: ^3.2.4
+  shared_preferences: ^0.4.3
+  intl: ^0.15.7
+  url_launcher: ^5.4.11  
+  flutter_launch: ^0.2.0
+  
+
+firebase_database:
+  firebase_core: ^0.2.5+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - Images/skillhub.png
+    - Images/background.png
+    - Images/Abstract Dark Blue Light In Center Photography Backdrop J-0420.jpg
+    - Images/greybackground.png
+    - Images/skillhublogo.png
+    - Images/skillhublogo-removebg-preview (1).png
+    - Images/rsz_skillhublogo-removebg-preview_1.png
+    - Images/download.png
+    - Images/Untitled.png
+    - Images/download (1).jpg
+    - Images/logo-removebg-preview.png
+    - Images/36.gif
+    - Images/logopng-removebg-preview.png
+    - Images/facebooklogo.png
+    - Images/mail.png
+    - Images/whatsapplogo-removebg-preview.png
+    - Images/location.png
+    - Images/phonee-removebg-preview.png
+    
+
+
+  fonts:
+     - family: bold
+       fonts:
+         - asset: fonts/bold.ttf
+     - family: light
+       fonts:
+         - asset: fonts/OpenSansCondensed-Light.ttf       
+          
+  
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
