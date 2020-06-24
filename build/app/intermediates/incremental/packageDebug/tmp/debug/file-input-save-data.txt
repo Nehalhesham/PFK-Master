@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Jun 23 22:49:10 EET 2020
+#Wed Jun 24 14:04:58 EET 2020
 60.set=ASSET
 52.set=DEX
 53.base=C\:\\Users\\Nezu\\Downloads\\.idea\\PFK-Master-master\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\21
@@ -23,7 +23,7 @@
 69.base=C\:\\Users\\Nezu\\Downloads\\.idea\\PFK-Master-master\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\34
 9.set=DEX
 22.base=C\:\\Users\\Nezu\\Downloads\\.idea\\PFK-Master-master\\build\\app\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
-14.path=flutter_assets/Images/download (1).jpg
+14.path=lib/arm64-v8a/libflutter.so
 29.base=C\:\\Users\\Nezu\\Downloads\\.idea\\PFK-Master-master\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\33
 61.path=flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf
 76.base=C\:\\Users\\Nezu\\Downloads\\.idea\\PFK-Master-master\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\15
@@ -152,7 +152,7 @@
 31.set=ASSET
 23.set=DEX
 99.baseType=DIRECTORY
-15.set=NATIVE_RESOURCE
+15.set=ASSET
 59.baseType=DIRECTORY
 93.set=DEX
 85.set=ASSET
@@ -182,7 +182,7 @@
 30.set=ASSET
 22.set=ASSET
 50.base=C\:\\Users\\Nezu\\Downloads\\.idea\\PFK-Master-master\\build\\app\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
-14.set=ASSET
+14.set=NATIVE_RESOURCE
 92.set=ASSET
 57.base=C\:\\Users\\Nezu\\Downloads\\.idea\\PFK-Master-master\\build\\app\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 84.set=DEX
@@ -307,7 +307,7 @@ count=100
 56.set=ASSET
 48.set=ASSET
 42.path=flutter_assets/packages/flutter_signin_button/assets/logos/2.0x/google_light.png
-15.base=C\:\\Users\\Nezu\\Downloads\\.idea\\PFK-Master-master\\build\\app\\intermediates\\transforms\\mergeJniLibs\\debug\\0
+15.base=C\:\\Users\\Nezu\\Downloads\\.idea\\PFK-Master-master\\build\\app\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 5.path=classes.dex
 49.path=flutter_assets/packages/flutter_signin_button/assets/logos/google_dark.png
 96.path=flutter_assets/packages/rflutter_alert/assets/images/icon_info.png
@@ -359,7 +359,7 @@ count=100
 38.set=DEX
 41.path=flutter_assets/packages/rflutter_alert/assets/images/icon_success.png
 77.baseType=DIRECTORY
-14.base=C\:\\Users\\Nezu\\Downloads\\.idea\\PFK-Master-master\\build\\app\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
+14.base=C\:\\Users\\Nezu\\Downloads\\.idea\\PFK-Master-master\\build\\app\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 4.path=classes.dex
 37.baseType=DIRECTORY
 48.path=flutter_assets/Images/rsz_skillhublogo-removebg-preview_1.png
@@ -371,7 +371,7 @@ count=100
 55.path=classes.dex
 33.baseType=DIRECTORY
 23.base=C\:\\Users\\Nezu\\Downloads\\.idea\\PFK-Master-master\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\35
-15.path=lib/arm64-v8a/libflutter.so
+15.path=flutter_assets/Images/download (1).jpg
 70.base=C\:\\Users\\Nezu\\Downloads\\.idea\\PFK-Master-master\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\20
 77.base=C\:\\Users\\Nezu\\Downloads\\.idea\\PFK-Master-master\\build\\app\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 61.set=ASSET

@@ -1,4 +1,4 @@
-#Tue Jun 23 22:48:55 EET 2020
+#Wed Jun 24 16:44:11 EET 2020
 path.38=classes.dex
 base.10=C\:\\Users\\Nezu\\Downloads\\.idea\\PFK-Master-master\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\5
 path.37=classes.dex

@@ -3,6 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:pfk/Models/user.dart';
 import 'package:pfk/Screens/Auth/sign_in.dart';
 import 'package:pfk/Screens/Home/profile.dart';
+import 'package:pfk/Screens/coursesscreens/crm.dart';
+import 'package:pfk/Screens/coursesscreens/crmfundmentals.dart';
+import 'package:pfk/Screens/coursesscreens/pfa.dart';
+import 'package:pfk/Screens/coursesscreens/pfk.dart';
 import 'package:pfk/Screens/dialog/dialog_helper.dart';
 import 'package:pfk/Screens/dialog/dialog_helperII.dart';
 import 'package:pfk/Services/auth.dart';
@@ -133,6 +137,23 @@ class _HomeState extends State<Home> {
                       Navigator.push(context,
                       MaterialPageRoute(builder: (context) => CSharp()));
                    }
+                   else if(_currentindexII==1){
+                      Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => CRM()));
+                   }
+                   else if(_currentindexII==2){
+                      Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => CRMFun()));
+                   }
+                   else if(_currentindexII==3){
+                      Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => PFK()));
+                   }
+                   else if(_currentindexII==4){
+                      Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => PFA()));
+                   }
+                   
                    
                   },
                 

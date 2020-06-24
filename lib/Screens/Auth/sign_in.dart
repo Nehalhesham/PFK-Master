@@ -1,5 +1,6 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:pfk/Screens/Auth/register.dart';
 import 'package:pfk/Screens/Home/splashscreen.dart';
 import 'package:pfk/Services/auth.dart';
 import 'package:pfk/Screens/Home/home.dart';
@@ -247,11 +248,15 @@ class _SignIn extends State<SignIn> {
               ),
             
                 
+                
              Text("Don't have an account?",style: TextStyle( color: Color.fromARGB(255,255,255, 255)),),
               
              FlatButton.icon(
               onPressed: () {
-                widget.toggleView();
+               Navigator.push(
+                   context,
+               MaterialPageRoute(builder: (context) => Register()));
+                        ;
               },
               icon: Icon(Icons.person_add),
               label: Text("Register"),textColor: Color.fromARGB(255,255,255, 255))

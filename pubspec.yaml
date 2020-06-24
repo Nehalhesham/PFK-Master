@@ -42,6 +42,11 @@ dependencies:
   intl: ^0.15.7
   url_launcher: ^5.4.11  
   flutter_launch: ^0.2.0
+  mailer: ^3.0.4
+  mailer2: ^1.2.5
+
+
+
   
 
 firebase_database:
