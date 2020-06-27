@@ -59,7 +59,7 @@ class ExitConfirmationDialogII extends StatelessWidget {
              children:< Widget>[
          
   FlatButton(
-    onPressed: (){customLaunch('https://www.facebook.com/');},
+    onPressed: (){customLaunch('https://www.facebook.com/Skillhubme');},
    child: Image.asset(
    'Images/facebooklogo.png',
     fit: BoxFit.cover, // this is the solution for border
@@ -70,7 +70,7 @@ class ExitConfirmationDialogII extends StatelessWidget {
     ) 
     ,
   FlatButton(
- onPressed: (){customLaunch('mailto:nehalhesham20@gmail.com?subject=test%20subject&body=test%20body');},
+ onPressed: (){customLaunch('mailto:Sales@skillhub-me.com?subject=test%20subject&body=test%20body');},
    child: Image.asset(
    'Images/mail.png',
     fit: BoxFit.cover, // this is the solution for border
@@ -85,7 +85,7 @@ class ExitConfirmationDialogII extends StatelessWidget {
              children:< Widget>[
        FlatButton(
  onPressed:  () {
-                    customLaunch('tel:+0201017605333');
+                    customLaunch('tel:+0201201324717');
                   },
 
    child: Image.asset(
@@ -98,7 +98,7 @@ class ExitConfirmationDialogII extends StatelessWidget {
     )
       ,FlatButton(
  onPressed: (){
-   customLaunch('https://www.google.com/maps/search/?api=1&query=30.0833217,31.276494500000002');
+   customLaunch('https://www.google.com/maps/search/?api=1&query=30.073723,31.021664');
  },
    child: Image.asset(
    'Images/location.png',

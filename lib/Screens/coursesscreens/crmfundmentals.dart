@@ -43,14 +43,14 @@ String namefordialog='';
     phonenum=phonenumber;
   }
   var options = new GmailSmtpOptions()
-    ..username = 'nehalhisham20@gmail.com'
+    ..username = 'skillhub.me@gmail.com'
     ..password = 'Hell0W0rld';  
   var emailTransport = new SmtpTransport(options);
 
    var envelope = new Envelope()
      
-    ..from = 'nehalhisham20@gmail.com'
-    ..recipients.add('$emaill')
+    ..from = 'skillhub.me@gmail.com'
+    ..recipients.add('Bassant.Raafat@skillhub-me.com')
     ..bccRecipients.add('hidden@recipient.com')
     ..subject = 'new subscriber'
    // ..attachments.add(new Attachment(file: new File('path/to/file')))
@@ -78,21 +78,28 @@ String namefordialog='';
         ),
          Container(
       
-     margin: EdgeInsets.only(top: 40.0, bottom: 100.0,left: 60.0,right: 60.0),
-     child: Image.asset('Images/skillhublogo-removebg-preview (1).png',width:300, alignment:Alignment.center)
+     margin: EdgeInsets.only(top: 20.0, bottom: 200.0,left: 20.0,right: 80.0),
+     child: Image.asset('Images/skillhublogo-removebg-preview (1).png',width:60)
       ,
       ),
        Container(
       
-     margin: EdgeInsets.only(top: 370.0, bottom: 80.0,left: 60.0,),
-    child:Text('Skill Hub', style: TextStyle( color: Color.fromARGB(255,255, 255, 255),
+     margin: EdgeInsets.only(top: 60.0, bottom: 200.0,left: 80.0,),
+    child:Text('CRM Functional Business', style: TextStyle( color: Color.fromARGB(255,255, 255, 255),
                   fontFamily: 'bold',
-                  fontSize: 60),),
+                  fontSize: 22),),
+      ),
+          Container(
+      
+     margin: EdgeInsets.only(top: 160.0, bottom: 0.0,left: 10.0,),
+    child:Text('CRM Functional business.\n\nThe Course Duration is Two Weeks with Four Sessions.\n\nPrice of the course: 3000 EGP', style: TextStyle( color: Color.fromARGB(255,255, 255, 255),
+                  fontFamily: 'light',
+                  fontSize: 35),),
       ),
        
     Container(
       
-     margin: EdgeInsets.only(top: 650, bottom: 0,left:200,right: 0 ),
+     margin: EdgeInsets.only(top: 680, bottom: 0,left:200,right: 0 ),
       child: Center(
         child:
         ButtonTheme(
@@ -104,9 +111,9 @@ String namefordialog='';
                   
                       alert(context);
                   },
-                  color: Colors.red,
+                  color: Color.fromARGB(255, 9, 51, 91),
                   child: Text(
-                    "Subscribe",
+                    "Register",
                     style: TextStyle( color: Color.fromARGB(255,255, 255, 255),
                   fontFamily: 'bold',
                   fontSize: 25),

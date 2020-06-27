@@ -7,6 +7,7 @@ import 'package:pfk/Screens/coursesscreens/crm.dart';
 import 'package:pfk/Screens/coursesscreens/crmfundmentals.dart';
 import 'package:pfk/Screens/coursesscreens/pfa.dart';
 import 'package:pfk/Screens/coursesscreens/pfk.dart';
+import 'package:pfk/Screens/coursesscreens/sql.dart';
 import 'package:pfk/Screens/dialog/dialog_helper.dart';
 import 'package:pfk/Screens/dialog/dialog_helperII.dart';
 import 'package:pfk/Services/auth.dart';
@@ -76,12 +77,13 @@ class _HomeState extends State<Home> {
     
   }
   List<Courses> Course = [
-    Courses(name: '#C for beginners',descreption: 'ayhaga',image: 'download.png'),
+    Courses(name: 'C# for beginners',descreption: 'ayhaga',image: 'clogo.png'),
     Courses(name:'CRM',descreption:'ayhaga',image:'download (1).jpg'),
     Courses(name:'CRM Functional business',descreption:'ayhaga',image:'download (1).jpg'),
     Courses(name: 'Programing for kids',descreption: 'ayhaga',image: 'Untitled.png'),
     Courses(name: 'PFA',descreption: 'ayhaga',image: 'download.png'),
-    
+    Courses(name: 'SQL',descreption: 'ayhaga',image: 'SQLlogo.png'),
+       
 
    
   ];
@@ -154,6 +156,10 @@ class _HomeState extends State<Home> {
                       MaterialPageRoute(builder: (context) => PFA()));
                    }
                    
+                   else if(_currentindexII==5){
+                      Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => SQL()));
+                   }
                    
                   },
                 

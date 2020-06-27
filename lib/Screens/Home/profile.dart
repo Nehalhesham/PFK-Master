@@ -4,6 +4,8 @@ import 'package:pfk/Services/auth.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
+import 'package:pfk/Screens/dialog/dialog_helperIII.dart';
+
 import 'home.dart';
 
 class Profile extends StatefulWidget {
@@ -198,7 +200,7 @@ class _ProfileState extends State<Profile> {
                  TextFormField(
                   decoration: InputDecoration(
                   
-                    labelText: '${emptyphone.toString()}',
+                    labelText: 'Mobile Number',
                     hintText: '${emptyphone.toString()}',
                   enabledBorder: OutlineInputBorder(
                   borderSide: BorderSide(color:Color.fromARGB(255,255,255, 255),width: 2.0)
@@ -269,6 +271,19 @@ class _ProfileState extends State<Profile> {
                     style: TextStyle(color: Color.fromARGB(255, 253, 248, 244)),
                   ),
                 ),
+                 RaisedButton(
+                  onPressed: (){
+                    DialogHelperIII.exit(context);
+                  },
+                  color: Color.fromARGB(255, 9, 51, 91),
+                  child: Text(
+                    "Update Password ",
+                    style: TextStyle( color: Color.fromARGB(255,255, 255, 255),
+                  fontFamily: 'bold',
+                  fontSize: 20),
+                  ),
+                ),
+    
                 SizedBox(
                   height: 12.0,
                 ),
