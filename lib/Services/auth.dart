@@ -60,20 +60,22 @@ class AuthServices {
       case FacebookLoginStatus.loggedIn:
         final AuthCredential credential = FacebookAuthProvider.getCredential(
           accessToken: result.accessToken.token,
-
+        
         );
         final FirebaseUser user = (await FirebaseAuth.instance.signInWithCredential(credential)).user;
         await DatabaseService(uid:user.uid);
         UserUpdateInfo updateInfo = UserUpdateInfo();
         updateInfo.displayName = user.displayName;
         print('signed in ' + user.displayName);
-      
+        isLogged=true;
         return user;
         break;
       case FacebookLoginStatus.cancelledByUser:
         print('CANCELED BY USER');
+        isLogged=false;
         break;
       case FacebookLoginStatus.error:
+      isLogged=false;
         print(result.errorMessage);
         break;
     }
@@ -82,6 +84,7 @@ class AuthServices {
    void logOut() async {
     await _auth.signOut().then((response) {
       isLogged = false;
+      setState(){};
       
     });
   }
@@ -91,7 +94,7 @@ class AuthServices {
       if (response != null) {
         myUser = response;
         isLogged = true;
-      
+        setState(){};
       }
     });
   }

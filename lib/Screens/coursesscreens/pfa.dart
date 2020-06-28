@@ -78,8 +78,8 @@ String namefordialog='';
         ),
       Container(
       
-     margin: EdgeInsets.only(top: 20.0, bottom: 200.0,left: 20.0,right: 80.0),
-     child: Image.asset('Images/skillhublogo-removebg-preview (1).png',width:60)
+    margin: EdgeInsets.only(top: 44.0, bottom: 200.0,left: 20.0,right: 80.0),
+    child: Image.asset('Images/skillhublogoo.png',width:60)
       ,
       ),
        Container(
@@ -92,9 +92,9 @@ String namefordialog='';
         Container(
       
      margin: EdgeInsets.only(top: 160.0, bottom: 0.0,left: 10.0,),
-    child:Text('The Content Of This Course Mainly Focuses On The Advanced Concepts Of C# Which Are Used In The Real World Applications. It Is Designed Such That The Enrolled Students Can Learn The Concepts In A Clean And Structured Manner With Perfect Pace. Another Highlight Of This Course Is That It Not Only Helps You To Gain Knowledge To Build Applications But It Also Prepares You For Your Technical Interviews.\n\nThe Course Duration Is Eight Weeks With Eight Sessions.\nthe Duration Of Each Session Is From Three To Four Hours.\n\nprice Of The Course: 1500 EGP', style: TextStyle( color: Color.fromARGB(255,255, 255, 255),
-                  fontFamily: 'light',
-                  fontSize: 25),),
+    child:Text('The Content Of This Course Mainly Focuses On The Advanced Concepts Of C# Which Are Used In The Real World Applications. It Is Designed Such That The Enrolled Students Can Learn The Concepts In A Clean And Structured Manner With Perfect Pace. Another Highlight Of This Course Is That It Not Only Helps You To Gain Knowledge To Build Applications But It Also Prepares You For Your Technical Interviews.\n\nThe Course Duration Is Eight Weeks With Eight Sessions.\nthe Duration Of Each Session Is From Three To Four Hours.\n\nprice Of The Course: 1500 EGP', style: TextStyle( color: Colors.black
+                  ,fontFamily: 'segoe',
+                  fontSize: 20),),
       ),  
     Container(
       

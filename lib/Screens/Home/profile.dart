@@ -111,7 +111,7 @@ class _ProfileState extends State<Profile> {
                     Container(
       
      margin: EdgeInsets.only(top: 20.0, bottom: 9.0,left: 0.0,right: 0.0),
-     child: Image.asset('Images/skillhublogo-removebg-preview (1).png',width:80, alignment:Alignment.center)
+     child: Image.asset('Images/skillhublogoo.png',width:80, alignment:Alignment.center)
       ,
       ),
         Container(

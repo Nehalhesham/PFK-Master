@@ -78,8 +78,8 @@ String namefordialog='';
         ),
          Container(
       
-     margin: EdgeInsets.only(top: 20.0, bottom: 200.0,left: 20.0,right: 80.0),
-     child: Image.asset('Images/skillhublogo-removebg-preview (1).png',width:60)
+     margin: EdgeInsets.only(top: 44.0, bottom: 200.0,left: 20.0,right: 80.0),
+    child: Image.asset('Images/skillhublogoo.png',width:60)
       ,
       ),
        Container(
@@ -87,14 +87,14 @@ String namefordialog='';
      margin: EdgeInsets.only(top: 60.0, bottom: 200.0,left: 80.0,),
     child:Text('CRM Functional Business', style: TextStyle( color: Color.fromARGB(255,255, 255, 255),
                   fontFamily: 'bold',
-                  fontSize: 22),),
+                  fontSize: 23),),
       ),
           Container(
       
      margin: EdgeInsets.only(top: 160.0, bottom: 0.0,left: 10.0,),
-    child:Text('CRM Functional business.\n\nThe Course Duration is Two Weeks with Four Sessions.\n\nPrice of the course: 3000 EGP', style: TextStyle( color: Color.fromARGB(255,255, 255, 255),
-                  fontFamily: 'light',
-                  fontSize: 35),),
+    child:Text('CRM Functional business.\n\nThe Course Duration is Two Weeks with Four Sessions.\n\nPrice of the course: 3000 EGP', style: TextStyle( color: Colors.black
+                  ,fontFamily: 'segoe',
+                  fontSize: 25),),
       ),
        
     Container(

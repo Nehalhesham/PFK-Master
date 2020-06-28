@@ -13,18 +13,19 @@ class Welcome extends StatelessWidget {
       children: <Widget>[
         new Container(
           decoration: new BoxDecoration(
-            image: new DecorationImage(image: new AssetImage("Images/greybackground.png"), fit: BoxFit.cover,),
+            image: new DecorationImage(image: new AssetImage("Images/greybackground.png"),
+             fit: BoxFit.cover,),
           ),
         ),
          Container(
       
-     margin: EdgeInsets.only(top: 40.0, bottom: 100.0,left: 60.0,right: 60.0),
-     child: Image.asset('Images/skillhublogo-removebg-preview (1).png',width:300, alignment:Alignment.center)
+     margin: EdgeInsets.only(top: 125.0, bottom: 100.0,left: 90.0,right: 60.0),
+     child: Image.asset('Images/skillhublogoo.png',width:200, alignment:Alignment.center)
       ,
       ),
        Container(
       
-     margin: EdgeInsets.only(top: 370.0, bottom: 80.0,left: 60.0,),
+     margin: EdgeInsets.only(top: 360.0, bottom: 80.0,left: 60.0,),
     child:Text('Skill Hub', style: TextStyle( color: Color.fromARGB(255,255, 255, 255),
                   fontFamily: 'bold',
                   fontSize: 60),),

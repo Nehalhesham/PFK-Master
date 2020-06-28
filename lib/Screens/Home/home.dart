@@ -77,11 +77,11 @@ class _HomeState extends State<Home> {
     
   }
   List<Courses> Course = [
-    Courses(name: 'C# for beginners',descreption: 'ayhaga',image: 'clogo.png'),
-    Courses(name:'CRM',descreption:'ayhaga',image:'download (1).jpg'),
-    Courses(name:'CRM Functional business',descreption:'ayhaga',image:'download (1).jpg'),
+    Courses(name: 'C# for beginners',descreption: 'ayhaga',image:'csharp.png'),
+    Courses(name:'CRM',descreption:'ayhaga',image:'CRM.png'),
+    Courses(name:'CRM Functional business',descreption:'ayhaga',image:'CRM Fund.png'),
     Courses(name: 'Programing for kids',descreption: 'ayhaga',image: 'Untitled.png'),
-    Courses(name: 'PFA',descreption: 'ayhaga',image: 'download.png'),
+    Courses(name: 'PFA',descreption: 'ayhaga',image: 'PFA.png'),
     Courses(name: 'SQL',descreption: 'ayhaga',image: 'SQLlogo.png'),
        
 
@@ -187,6 +187,7 @@ class _HomeState extends State<Home> {
         child: Scaffold(
           backgroundColor: Colors.transparent,
           appBar: AppBar(
+            automaticallyImplyLeading: false,
               backgroundColor: Colors.transparent, title: Text("Welcome, ${user.displayName} ",style: new TextStyle(
                   color: Color.fromARGB(255,255,255, 255),
                   fontFamily: 'bold',))),

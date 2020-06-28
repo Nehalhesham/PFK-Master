@@ -81,8 +81,8 @@ String namefordialog='';
         ),
          Container(
       
-     margin: EdgeInsets.only(top: 20.0, bottom: 200.0,left: 20.0,right: 80.0),
-     child: Image.asset('Images/skillhublogo-removebg-preview (1).png',width:60)
+     margin: EdgeInsets.only(top: 44.0, bottom: 200.0,left: 20.0,right: 80.0),
+     child: Image.asset('Images/skillhublogoo.png',width:60)
       ,
       ),
        Container(
@@ -95,9 +95,9 @@ String namefordialog='';
    Container(
       
      margin: EdgeInsets.only(top: 160.0, bottom: 0.0,left: 10.0,),
-    child:Text('CRM (Customer Relationship Management).\n\nCRM Systems are everywhere in modern business, with organisations worldwide using them to store customer data, track leads and support business partner relationships.\n\nOur range of CRM training courses provides you with the skills and knowledge to use some of the world’s popular CRM systems, including Microsoft Dynamics CRM, Salesforce and Oracle.\n\nPrice of the course:5000 EGP', style: TextStyle( color: Color.fromARGB(255,255, 255, 255),
-                  fontFamily: 'light',
-                  fontSize: 25),),
+    child:Text('CRM (Customer Relationship Management).\n\nCRM Systems are everywhere in modern business, with organisations worldwide using them to store customer data, track leads and support business partner relationships.\n\nOur range of CRM training courses provides you with the skills and knowledge to use some of the world’s popular CRM systems, including Microsoft Dynamics CRM, Salesforce and Oracle.\n\nPrice of the course:5000 EGP', style: TextStyle( color: Colors.black
+                  ,fontFamily: 'segoe',
+                  fontSize: 20),),
       ), Container(
       
      margin: EdgeInsets.only(top: 680, bottom: 0,left:200,right: 0 ),

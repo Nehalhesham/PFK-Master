@@ -81,8 +81,8 @@ String namefordialog='';
         ),
           Container(
       
-     margin: EdgeInsets.only(top: 20.0, bottom: 200.0,left: 20.0,right: 80.0),
-     child: Image.asset('Images/skillhublogo-removebg-preview (1).png',width:60)
+     margin: EdgeInsets.only(top: 44.0, bottom: 200.0,left: 20.0,right: 80.0),
+   child: Image.asset('Images/skillhublogoo.png',width:60)
       ,
       ),
        Container(
@@ -95,9 +95,9 @@ String namefordialog='';
          Container(
       
      margin: EdgeInsets.only(top: 160.0, bottom: 0.0,left: 10.0,),
-    child:Text('Why Learn C# ?\nC# is one of the most popular programming languages and can be used for a variety of things, including mobile applications, game development, and enterprise software. Knowing C# opens a great deal of doors for you as a developer.\n\nIn this course, you’ll be exposed to fundamental programming concepts using C# and start writing programs right away. You’ll build several projects to help you practice.\n\nThe Course Duration is Two Weeks With Four Sessions.\nPrice of the course: 3000 EGP.', style: TextStyle( color: Color.fromARGB(255,255, 255, 255),
-                  fontFamily: 'light',
-                  fontSize: 25),),
+    child:Text('Why Learn C# ?\nC# is one of the most popular programming languages and can be used for a variety of things, including mobile applications, game development, and enterprise software. Knowing C# opens a great deal of doors for you as a developer.\n\nIn this course, you’ll be exposed to fundamental programming concepts using C# and start writing programs right away. You’ll build several projects to help you practice.\n\nThe Course Duration is Two Weeks With Four Sessions.\nPrice of the course: 3000 EGP.', style: TextStyle( color: Colors.black
+                  ,fontFamily: 'segoe',
+                  fontSize: 20),),
       ), 
        
     Container(

@@ -15,11 +15,12 @@ class SignIn extends StatefulWidget {
   SignIn({this.toggleView});
   @override
   State<StatefulWidget> createState() {
+    
     return _SignIn();
   }
 }
 
-GlobalKey<FormState> _formKey = GlobalKey<FormState>();
+//GlobalKey<FormState> _formKey = GlobalKey<FormState>(debugLabel: '_WelcomeScreenkey');
 
 String email = '';
 String password = '';
@@ -30,7 +31,8 @@ final AuthServices _auth = AuthServices();
 class _SignIn extends State<SignIn> {
   @override
   final AuthServices _authServices = AuthServices();
- 
+ GlobalKey<FormState> _formKey = GlobalKey<FormState>(debugLabel: '_WelcomeScreenkey');
+
   Widget build(BuildContext context) {
     return Scaffold(
       resizeToAvoidBottomPadding: false,
@@ -54,8 +56,10 @@ class _SignIn extends State<SignIn> {
         
         padding: EdgeInsets.symmetric(vertical: 30.0, horizontal: 50.0),
       
-        child: 
         
+
+        
+       child:
        Form(
           
 
@@ -68,8 +72,8 @@ class _SignIn extends State<SignIn> {
                   children: <Widget>[
                     Container(
       
-     margin: EdgeInsets.only(top: 30.0, bottom: 9.0,left: 0.0,right: 0.0),
-     child: Image.asset('Images/skillhublogo-removebg-preview (1).png',width:80, alignment:Alignment.center)
+     margin: EdgeInsets.only(top: 35.0, bottom: 9.0,left: 0.0,right: 0.0),
+     child: Image.asset('Images/skillhublogoo.png',width:80, alignment:Alignment.center)
       ,
       ),
                 Container(

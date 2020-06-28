@@ -78,8 +78,8 @@ String namefordialog='';
         ),
      Container(
       
-     margin: EdgeInsets.only(top: 20.0, bottom: 200.0,left: 20.0,right: 80.0),
-     child: Image.asset('Images/skillhublogo-removebg-preview (1).png',width:60)
+     margin: EdgeInsets.only(top: 44.0, bottom: 200.0,left: 20.0,right: 80.0),
+   child: Image.asset('Images/skillhublogoo.png',width:60)
       ,
       ),
        Container(
@@ -92,9 +92,9 @@ String namefordialog='';
          Container(
       
      margin: EdgeInsets.only(top: 160.0, bottom: 0.0,left: 10.0,),
-    child:Text('This Course is for Kids.\nThe Course Duration is Four Weeks with Four Sessions.The Duration of Every Session is Two Hours.\n\nThere are Four Levels:\n_Level 1.. From 6 years to 8 years.\n_Level 2..From 8 years to 10 years.\n_Level 3..From 10 years to 12 years.\nLevel 4.. From 12 years to open.\nPrice of the course level:  600 EGP', style: TextStyle( color: Color.fromARGB(255,255, 255, 255),
-                  fontFamily: 'light',
-                  fontSize: 30),),
+    child:Text('This Course is for Kids.\nThe Course Duration is Four Weeks with Four Sessions.The Duration of Every Session is Two Hours.\n\nThere are Four Levels:\n_Level 1.. From 6 years to 8 years.\n_Level 2..From 8 years to 10 years.\n_Level 3..From 10 years to 12 years.\nLevel 4.. From 12 years to open.\nPrice of the course level:  600 EGP', style: TextStyle( color: Colors.black
+                  ,fontFamily: 'segoe',
+                  fontSize: 22),),
       ),   
     Container(
       

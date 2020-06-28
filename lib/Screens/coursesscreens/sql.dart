@@ -78,8 +78,8 @@ String namefordialog='';
         ),
      Container(
       
-     margin: EdgeInsets.only(top: 20.0, bottom: 200.0,left: 20.0,right: 80.0),
-     child: Image.asset('Images/skillhublogo-removebg-preview (1).png',width:60)
+     margin: EdgeInsets.only(top: 44.0, bottom: 200.0,left: 20.0,right: 80.0),
+    child: Image.asset('Images/skillhublogoo.png',width:60)
       ,
       ),
        Container(
@@ -92,9 +92,9 @@ String namefordialog='';
          Container(
       
      margin: EdgeInsets.only(top: 160.0, bottom: 0.0,left: 10.0,),
-    child:Text('SQL For Data Analysis\n\nIn This Course, You’ll Learn To Use Structured Query Language (SQL) To Extract And Analyze Data Stored In Databases. You’ll First Learn To Extract Data, Join Tables Together, And Perform Aggregations. Then You’ll Learn To Do More Complex Analysis And Manipulations Using Subqueries, Temp Tables, And Window Functions. By The End Of The Course, You’ll Be Able To Write Efficient SQL Queries To Successfully Handle A Variety Of Data Analysis Tasks.\n\nprice Of The Course:1500 EGP', style: TextStyle( color: Color.fromARGB(255,255, 255, 255),
-                  fontFamily: 'light',
-                  fontSize: 25),),
+    child:Text('SQL For Data Analysis\n\nIn This Course, You’ll Learn To Use Structured Query Language (SQL) To Extract And Analyze Data Stored In Databases. You’ll First Learn To Extract Data, Join Tables Together, And Perform Aggregations. Then You’ll Learn To Do More Complex Analysis And Manipulations Using Subqueries, Temp Tables, And Window Functions. By The End Of The Course, You’ll Be Able To Write Efficient SQL Queries To Successfully Handle A Variety Of Data Analysis Tasks.\n\nprice Of The Course:1500 EGP', style: TextStyle( color: Colors.black
+                  ,fontFamily: 'segoe',
+                  fontSize: 20),),
       ),   
     Container(
       

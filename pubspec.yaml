@@ -37,7 +37,6 @@ dependencies:
   splashscreen: ^1.2.0
   shimmer: ^1.0.1
   flutter_signin_button: ^1.0.0
-  google_sign_in: ^3.2.4
   shared_preferences: ^0.4.3
   intl: ^0.15.7
   url_launcher: ^5.4.11  
@@ -75,7 +74,7 @@ flutter:
     - Images/Abstract Dark Blue Light In Center Photography Backdrop J-0420.jpg
     - Images/greybackground.png
     - Images/skillhublogo.png
-    - Images/skillhublogo-removebg-preview (1).png
+    - Images/skillhublogoo.png
     - Images/rsz_skillhublogo-removebg-preview_1.png
     - Images/download.png
     - Images/Untitled.png
@@ -89,7 +88,10 @@ flutter:
     - Images/location.png
     - Images/phonee-removebg-preview.png
     - Images/SQLlogo.png
-    - Images/clogo.png
+    - Images/PFA.png
+    - Images/CRM Fund.png
+    - Images/CRM.png
+    - Images/csharp.png
     
 
 
@@ -99,7 +101,11 @@ flutter:
          - asset: fonts/bold.ttf
      - family: light
        fonts:
-         - asset: fonts/OpenSansCondensed-Light.ttf       
+         - asset: fonts/OpenSansCondensed-Light.ttf
+     - family: segoe
+       fonts:
+         - asset: fonts/Segoe UI Bold.ttf  
+                
           
   
   # For details regarding fonts from package dependencies,
