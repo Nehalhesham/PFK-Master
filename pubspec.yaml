@@ -104,7 +104,7 @@ flutter:
          - asset: fonts/OpenSansCondensed-Light.ttf
      - family: segoe
        fonts:
-         - asset: fonts/Segoe UI Bold.ttf  
+         - asset: fonts/SegoeUIBold.ttf  
                 
           
   
