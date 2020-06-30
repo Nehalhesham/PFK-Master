@@ -228,7 +228,7 @@ class _SignIn extends State<SignIn> {
               children: <Widget>[
                 FacebookSignInButton(onPressed: () async{
                      
-                   await _auth.LoginWithFacebook();
+                   FirebaseUser user=await _auth.LoginWithFacebook();
                      Navigator.push(
                    context,
                MaterialPageRoute(builder: (context) => Splashscreen()));

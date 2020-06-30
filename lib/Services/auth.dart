@@ -10,6 +10,7 @@ import 'package:flutter_facebook_login/flutter_facebook_login.dart';
 import 'package:http/http.dart';
 import 'package:pfk/Services/database.dart';
 import 'package:firebase_database/firebase_database.dart';
+import'package:firebase_auth/firebase_auth.dart';
 
 User _userfromfirebase(FirebaseUser user) { 
 return user != null ? User(uid: user.uid) :null ; 
@@ -50,22 +51,49 @@ class AuthServices {
 
 
   FirebaseUser myUser;
-
+ Future < FirebaseUser > facebookLogin(BuildContext context) async {  
+        FirebaseUser currentUser;  
+        final AuthServices _auth = AuthServices();
+        // fbLogin.loginBehavior = FacebookLoginBehavior.webViewOnly;  
+        // if you remove above comment then facebook login will take username and pasword for login in Webview  
+     try {  final facebookLogin = new FacebookLogin();
+            final FacebookLoginResult facebookLoginResult = await facebookLogin.logIn(['email', 'public_profile']);  
+            if (facebookLoginResult.status == FacebookLoginStatus.loggedIn) {  
+                FacebookAccessToken facebookAccessToken = facebookLoginResult.accessToken;  
+                final AuthCredential credential = FacebookAuthProvider.getCredential(accessToken: facebookAccessToken.token);  
+                final FirebaseUser user = (await FirebaseAuth.instance.signInWithCredential(credential)).user;  
+                assert(user.email != null);  
+                assert(user.displayName != null);  
+                assert(!user.isAnonymous);  
+                assert(await user.getIdToken() != null);  
+                currentUser = await _auth.currentUser();  
+                assert(user.uid == currentUser.uid);  
+                return currentUser;  
+            } }
+            catch (e) {  
+             
+                print(e);  
+                return currentUser;  
+            }  
+        }  
   Future<FirebaseUser> LoginWithFacebook() async {
+    
      final facebookLogin = new FacebookLogin();
-    final result = await facebookLogin.logIn(['email']);
+     final result = await facebookLogin.logIn(['email']);
    // final result = await facebookLogin.logInWithReadPermissions(['email']); --> Versions bellow 3.0
+   
+  
    print(result.toString());
     switch (result.status) {
       case FacebookLoginStatus.loggedIn:
         final AuthCredential credential = FacebookAuthProvider.getCredential(
           accessToken: result.accessToken.token,
-        
         );
         final FirebaseUser user = (await FirebaseAuth.instance.signInWithCredential(credential)).user;
-        await DatabaseService(uid:user.uid);
+        await DatabaseService(uid:user.uid).updateUserData(user.displayName, '');
         UserUpdateInfo updateInfo = UserUpdateInfo();
         updateInfo.displayName = user.displayName;
+        user.updateProfile(updateInfo);
         print('signed in ' + user.displayName);
         isLogged=true;
         return user;

@@ -2,6 +2,7 @@
 <resources>
 <!--    Please update your facebook config in this strings-->
     <string name="app_name">skillhub</string>
-    <string name="facebook_app_id">3344362675576844</string>
-    <string name="fb_login_protocol_scheme">fb3344362675576844</string>
+    <string name="facebook_app_id">702008573690534</string>
+    <string name="fb_login_protocol_scheme">fb702008573690534</string>
+
 </resources>

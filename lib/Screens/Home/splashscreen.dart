@@ -4,8 +4,12 @@ import 'dart:async';
 import 'package:shimmer/shimmer.dart';
 
 import 'home.dart';
-
+String name = ""; 
 class Splashscreen extends StatefulWidget {
+  
+ 
+
+  
   @override
   State<StatefulWidget> createState() => new _SplashscreenState();
 }
@@ -17,6 +21,9 @@ class _SplashscreenState extends State<Splashscreen> {
 @override
 _SplashscreenState() {
 _timer = new Timer(const Duration(milliseconds: 2500), () {
+    while(Navigator.canPop(context)){
+      Navigator.pop(context);
+    }
     Navigator.push(                    
     context,
     MaterialPageRoute(builder: (context) => Home()),
@@ -34,7 +41,12 @@ _timer = new Timer(const Duration(milliseconds: 2500), () {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return WillPopScope(
+      onWillPop: () {
+        return new Future(() => false);
+      },
+      child:
+     Scaffold(
       body:Container(
         child: Stack(
           alignment: Alignment.center,
@@ -73,8 +85,8 @@ _timer = new Timer(const Duration(milliseconds: 2500), () {
             )],
         )
       )
-    );
-      
+    )
+    ); 
    
   }
 }

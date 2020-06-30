@@ -23,11 +23,16 @@ import 'ForgotScreen.dart';
 
 
 
-
+String displayname='';
 
 class Home extends StatefulWidget {
+  
+ 
   @override
+  
   final AuthServices _auth = AuthServices();
+  
+//String displayname="";
  
   _HomeState createState() => _HomeState();
 
@@ -38,40 +43,52 @@ class _HomeState extends State<Home> {
   int _currentindexII=0;
   int _count=0;
   int _currentindex = 0;
-
   FirebaseUser user;
   Future<String> getUserData() async{
-    FirebaseUser userData= await FirebaseAuth.instance.currentUser();
-  
-    setState(() {
+   final FirebaseUser userData= await FirebaseAuth.instance.currentUser();
+
+    setState(() async{
       
       user=userData;
+      if(user.uid==null){
+        displayname=user.displayName;
+      }
+     else{
      final firestoreInstance = Firestore.instance;
-     firestoreInstance.collection("users").document(user.uid).get().then((value) async {
+     await firestoreInstance.collection("users").document(user.uid).get().then((value) async {
        print('here');
+       displayname=user.displayName;
       print(value.data['displayName']);
       print(value.data['phoneNumber']);
       UserUpdateInfo updateInfo = UserUpdateInfo();
      updateInfo.displayName = value.data['displayName'];
+     displayname=user.displayName;
+     
       user.updateProfile(updateInfo);
       user.reload();
      
-    });
+    });}
       
       print(user.uid);
       print(user.email);
       print(user.displayName);
       print(user.phoneNumber);
+      print(displayname);
       
     });
     
     
   }
   @override
-  void initState(){
-    super.initState();
-
+  void initState() {
     getUserData();
+   Future.delayed( Duration(milliseconds: 3000), () {
+      setState(() {
+        
+ 
+    super.initState();
+         });
+    });
     
    
     
@@ -79,8 +96,8 @@ class _HomeState extends State<Home> {
   List<Courses> Course = [
     Courses(name: 'C# for beginners',descreption: 'ayhaga',image:'csharp.png'),
     Courses(name:'CRM',descreption:'ayhaga',image:'CRM.png'),
-    Courses(name:'CRM Functional business',descreption:'ayhaga',image:'CRM Fund.png'),
-    Courses(name: 'Programing for kids',descreption: 'ayhaga',image: 'Untitled.png'),
+    Courses(name:'CRM Functional business',descreption:'ayhaga',image:'CRMFund.png'),
+    Courses(name: 'Programing for kids',descreption: 'ayhaga',image: 'pfk.png'),
     Courses(name: 'PFA',descreption: 'ayhaga',image: 'PFA.png'),
     Courses(name: 'SQL',descreption: 'ayhaga',image: 'SQLlogo.png'),
        
@@ -92,8 +109,9 @@ class _HomeState extends State<Home> {
   
   final GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey<ScaffoldState>();
   final AuthServices _auth = AuthServices();
-  
+
   Widget build(BuildContext context) {
+    
     var listView = ListView.builder(
       itemCount: Course.length,
       itemBuilder: (context, index) {
@@ -115,27 +133,7 @@ class _HomeState extends State<Home> {
                             setState(() {
                               _currentindex = index;
                             });
-                            print("You clicked item number $_currentindex");
-                           
-                          },
-                          title: Text(Course[index].name ,
-                            
-                              textAlign: TextAlign.justify,
-                              style: TextStyle(
-                                color: Color.fromARGB(255, 255, 255, 255),
-                                fontFamily: 'bold',
-                                fontSize: 20,
-                              )),
-                              subtitle:  Row(
-                   children: <Widget>[
-                     new Container(
-                        margin: const EdgeInsets.only(left: 0.0, right: 20.0,top:10),
-         
-                child:InkWell(
-                  onTap: (){
-                   _currentindexII=index;
-                   print('${_currentindexII}');
-                   if(_currentindexII==0){
+                             if(_currentindexII==0){
                       Navigator.push(context,
                       MaterialPageRoute(builder: (context) => CSharp()));
                    }
@@ -160,10 +158,31 @@ class _HomeState extends State<Home> {
                       Navigator.push(context,
                       MaterialPageRoute(builder: (context) => SQL()));
                    }
+                            print("You clicked item number $_currentindex");
+                           
+                          },
+                          title: Text(Course[index].name ,
+                            
+                              textAlign: TextAlign.justify,
+                              style: TextStyle(
+                                color: Color.fromARGB(255, 255, 255, 255),
+                                fontFamily: 'bold',
+                                fontSize: 20,
+                              )),
+                              subtitle:  Row(
+                   children: <Widget>[
+                     new Container(
+                        margin: const EdgeInsets.only(left: 0.0, right: 20.0,top:10),
+         
+                child:InkWell(
+                  onTap: (){
+                   _currentindexII=index;
+                   print('${_currentindexII}');
+                  
                    
                   },
                 
-                 child:Text('For More Details Click Here',  style: TextStyle(color: Colors.grey, fontSize: 14.0))
+                 child:Text('For More Details..',  style: TextStyle(color: Colors.blue, fontSize: 14.0,decoration:TextDecoration.underline))
                      )
                      )],
              ),
@@ -188,7 +207,7 @@ class _HomeState extends State<Home> {
           backgroundColor: Colors.transparent,
           appBar: AppBar(
             automaticallyImplyLeading: false,
-              backgroundColor: Colors.transparent, title: Text("Welcome, ${user.displayName} ",style: new TextStyle(
+              backgroundColor: Colors.transparent, title: Text("Welcome,$displayname",style: new TextStyle(
                   color: Color.fromARGB(255,255,255, 255),
                   fontFamily: 'bold',))),
           body: new RefreshIndicator(

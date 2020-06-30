@@ -27,6 +27,7 @@ class _RegisterState extends State<Register> {
   String name='';
 
   @override
+  
   Widget build(BuildContext context) {
     return Scaffold(
       resizeToAvoidBottomPadding: false,
