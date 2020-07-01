@@ -73,9 +73,9 @@ class _ProfileState extends State<Profile> {
         decoration: BoxDecoration(
           image: DecorationImage(
             image: AssetImage('Images/greybackground.png'),
-            fit: BoxFit.fill,
+            fit: BoxFit.cover,
           ),
-          shape: BoxShape.rectangle,
+         // shape: BoxShape.rectangle,
         ),
         child: Scaffold(
            resizeToAvoidBottomPadding: false,
@@ -90,34 +90,34 @@ class _ProfileState extends State<Profile> {
         image: DecorationImage(
           image: AssetImage(
               'Images/greybackground.png'),
-          fit: BoxFit.fill,
+          fit: BoxFit.cover,
         ),
-        shape: BoxShape.rectangle,
+        //shape: BoxShape.rectangle,
       ),
        
       
          
-      padding: EdgeInsets.symmetric(vertical: 30.0, horizontal: 50.0),
+     // padding: EdgeInsets.symmetric(vertical: 30.0, horizontal: 50.0),
      child:  
      
          Form(
             key: _formKey,
             child: Column(
-                crossAxisAlignment: CrossAxisAlignment.stretch,
+              //  crossAxisAlignment: CrossAxisAlignment.stretch,
               children: <Widget>[
                   Row(
-                
+                mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     Container(
       
-     margin: EdgeInsets.only(top: 20.0, bottom: 9.0,left: 0.0,right: 0.0),
+     margin: EdgeInsets.only(top: 40.0),
      child: Image.asset('Images/skillhublogoo.png',width:80, alignment:Alignment.center)
       ,
       ),
-        Container(
+                Container(
                    alignment: Alignment.center ,
-                   padding: EdgeInsets.fromLTRB(0, 35, 0, 0),
-                   margin: new EdgeInsets.symmetric(vertical:60.0),
+                   padding: EdgeInsets.fromLTRB(0, 40, 0, 0),
+                   margin: new EdgeInsets.symmetric(vertical:70.0),
                   child:
                 new Text('SkillHub' ,style: new TextStyle(
                   fontSize: 47.0,
@@ -129,6 +129,10 @@ class _ProfileState extends State<Profile> {
                  SizedBox(
                   height: 20.0,
                 ),
+                 SizedBox(
+                  width: 300,
+                  height: 55.0,
+                  child:
                  TextFormField (
                   decoration:new InputDecoration(
                    
@@ -159,10 +163,14 @@ class _ProfileState extends State<Profile> {
                       name = val;}
                     });
                   },
-                ),
+                ),),
                 SizedBox(
                   height: 20.0,
                 ),
+                 SizedBox(
+                  width: 300,
+                  height: 55.0,
+                  child:
                  TextFormField(
                   decoration: InputDecoration(
                     
@@ -193,10 +201,15 @@ class _ProfileState extends State<Profile> {
                       }
                     });
                   },
-                ),
+                ),),
+
                  SizedBox(
                   height: 20.0,
                 ),
+                 SizedBox(
+                  width: 300,
+                  height: 55.0,
+                  child:
                  TextFormField(
                   decoration: InputDecoration(
                   
@@ -229,10 +242,14 @@ class _ProfileState extends State<Profile> {
                       phone = val;}
                     });
                   },
-                ),
+                ),),
                 SizedBox(
                   height: 20.0,
                 ),
+                 SizedBox(
+                  width: 300,
+                  height: 40.0,
+                  child:
               RaisedButton.icon(
                   onPressed: () async {
                    if (_formKey.currentState.validate()) {
@@ -257,8 +274,8 @@ class _ProfileState extends State<Profile> {
   context,
   MaterialPageRoute(builder: (_) => Splashscreen()))
 .then((_) => Home());
-}},
-                      
+}}
+        ,              
                     
                   
                   icon: Icon(
@@ -270,7 +287,15 @@ class _ProfileState extends State<Profile> {
                     "Update Data ",
                     style: TextStyle(color: Color.fromARGB(255, 253, 248, 244)),
                   ),
+                ),),
+                SizedBox(
+                  height: 12.0,
                 ),
+                
+                 SizedBox(
+                  width: 300,
+                  height: 40.0,
+                  child:
                  RaisedButton(
                   onPressed: (){
                     DialogHelperIII.exit(context);
@@ -282,7 +307,7 @@ class _ProfileState extends State<Profile> {
                   fontFamily: 'bold',
                   fontSize: 20),
                   ),
-                ),
+                ),),
     
                 SizedBox(
                   height: 12.0,

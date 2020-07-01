@@ -17,37 +17,55 @@ class Welcome extends StatelessWidget {
              fit: BoxFit.cover,),
           ),
         ),
+
+
+        Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        
+           children: <Widget>[
+              Column(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: <Widget>[
          Container(
       
-     margin: EdgeInsets.only(top: 125.0, bottom: 100.0,left: 90.0,right: 60.0),
+     margin: EdgeInsets.only(top: 30.0),
      child: Image.asset('Images/skillhublogoo.png',width:200, alignment:Alignment.center)
       ,
       ),
        Container(
       
-     margin: EdgeInsets.only(top: 360.0, bottom: 80.0,left: 60.0,),
+     margin: EdgeInsets.only(top: 20.0, bottom: 10.0,),
     child:Text('Skill Hub', style: TextStyle( color: Color.fromARGB(255,255, 255, 255),
                   fontFamily: 'bold',
                   fontSize: 60),),
       ),
         Container(
       
-     margin: EdgeInsets.only(top: 450.0, bottom: 60.0,left: 60.0,right: 60.0),
+     margin: EdgeInsets.only(left: 60.0,right: 60.0),
     child:Text('Skill Hub is the international Hub to grow your Technology Skills',
      style: TextStyle( color: Color.fromARGB(255, 9, 51, 91),
                   fontFamily: 'light',
                   fontSize: 20),),
+      ),]),
+      Container(
+
       ),
-    Container(
+      Container(child: Align(
+                    alignment: FractionalOffset.bottomCenter,
+                    child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+         children: <Widget>[
+            Container(
       
-     margin: EdgeInsets.only(top: 600, bottom: 0,left:0,right: 200 ),
-      child: Center(
+    // margin: EdgeInsets.only (top:100 ),
+      
         child:
         ButtonTheme(
   minWidth: 150.0,
   height: 50.0,
   child: 
       RaisedButton(
+        
                   onPressed: ()  {
                     Navigator.push(
       context,
@@ -62,12 +80,12 @@ class Welcome extends StatelessWidget {
                   fontSize: 25),
                   ),
                 ),
-    ))),
+    )),
      Container(
       
-     margin: EdgeInsets.only(top: 600, bottom: 0,left:200,right: 20 ),
+    // margin: EdgeInsets.only (bottom:100 ),
 
-      child: Center(
+     
         child:
          ButtonTheme(
   minWidth: 150.0,
@@ -88,9 +106,10 @@ class Welcome extends StatelessWidget {
                   fontSize: 25),
                   ),
                 ),
-      ) )),
+      ) ),])
+       ,)),
       
-      ],));
+      ],)]));
   }
 }
 

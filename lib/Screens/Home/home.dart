@@ -82,17 +82,17 @@ class _HomeState extends State<Home> {
   @override
   void initState() {
     getUserData();
-   Future.delayed( Duration(milliseconds: 3000), () {
-      setState(() {
-        
- 
-    super.initState();
-         });
-    });
-    
+  
+    super.initState();    
    
-    
   }
+    @override
+          void dispose() {
+            super.dispose();
+          setState(() {
+           (context as Element).reassemble();
+          });
+          }
   List<Courses> Course = [
     Courses(name: 'C# for beginners',descreption: 'ayhaga',image:'csharp.png'),
     Courses(name:'CRM',descreption:'ayhaga',image:'CRM.png'),
@@ -130,10 +130,54 @@ class _HomeState extends State<Home> {
                       ),
                       child: ListTile(
                           onTap: () {
-                            setState(() {
+                            
                               _currentindex = index;
-                            });
-                             if(_currentindexII==0){
+                          
+                             if(_currentindex==0){
+                      Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => CSharp()));
+                   }
+                   else if(_currentindex==1){
+                      Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => CRM()));
+                   }
+                   else if(_currentindex==2){
+                      Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => CRMFun()));
+                   }
+                   else if(_currentindex==3){
+                      Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => PFK()));
+                   }
+                   else if(_currentindex==4){
+                      Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => PFA()));
+                   }
+                   
+                   else if(_currentindex==5){
+                      Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => SQL()));
+                   }
+                            print("You clicked item number $_currentindex");
+                           
+                          },
+                          title: Text(Course[index].name ,
+                            
+                              textAlign: TextAlign.justify,
+                              style: TextStyle(
+                                color: Color.fromARGB(255, 255, 255, 255),
+                                fontFamily: 'bold',
+                                fontSize: 20,
+                              )),
+                              subtitle:  Row(
+                   children: <Widget>[
+                     new Container(
+                        margin: const EdgeInsets.only(left: 0.0, right: 20.0,top:10),
+         
+                child:InkWell(
+                  onTap: (){
+                   _currentindexII=index;
+                    if(_currentindexII==0){
                       Navigator.push(context,
                       MaterialPageRoute(builder: (context) => CSharp()));
                    }
@@ -158,25 +202,6 @@ class _HomeState extends State<Home> {
                       Navigator.push(context,
                       MaterialPageRoute(builder: (context) => SQL()));
                    }
-                            print("You clicked item number $_currentindex");
-                           
-                          },
-                          title: Text(Course[index].name ,
-                            
-                              textAlign: TextAlign.justify,
-                              style: TextStyle(
-                                color: Color.fromARGB(255, 255, 255, 255),
-                                fontFamily: 'bold',
-                                fontSize: 20,
-                              )),
-                              subtitle:  Row(
-                   children: <Widget>[
-                     new Container(
-                        margin: const EdgeInsets.only(left: 0.0, right: 20.0,top:10),
-         
-                child:InkWell(
-                  onTap: (){
-                   _currentindexII=index;
                    print('${_currentindexII}');
                   
                    
@@ -199,9 +224,9 @@ class _HomeState extends State<Home> {
         decoration: BoxDecoration(
           image: DecorationImage(
             image: AssetImage('Images/greybackground.png'),
-            fit: BoxFit.fill,
+            fit: BoxFit.cover
           ),
-          shape: BoxShape.rectangle,
+          //shape: BoxShape.rectangle,
         ),
         child: Scaffold(
           backgroundColor: Colors.transparent,
@@ -211,6 +236,7 @@ class _HomeState extends State<Home> {
                   color: Color.fromARGB(255,255,255, 255),
                   fontFamily: 'bold',))),
           body: new RefreshIndicator(
+            
             child: listView,
            onRefresh: _handleRefresh,)
           ,

@@ -30,43 +30,47 @@ class _RegisterState extends State<Register> {
   
   Widget build(BuildContext context) {
     return Scaffold(
-      resizeToAvoidBottomPadding: false,
+     // resizeToAvoidBottomPadding: false,
       body: 
-     
+     Stack(
+        children: <Widget>[
        Container(
         
         decoration: BoxDecoration(
         image: DecorationImage(
           image: AssetImage(
               'Images/greybackground.png'),
-          fit: BoxFit.fill,
+          fit: BoxFit.cover,
         ),
-        shape: BoxShape.rectangle,
+       // shape: BoxShape.rectangle,
       ),
-       
+       ),
       
          
-      padding: EdgeInsets.symmetric(vertical: 30.0, horizontal: 50.0),
-     child:  
-     
+     // padding: EdgeInsets.symmetric(vertical: 30.0, horizontal: 50.0),
+      
+     SingleChildScrollView(
+       child:
          Form(
             key: _formKey,
-            child: Column(
-                crossAxisAlignment: CrossAxisAlignment.stretch,
-              children: <Widget>[
-                  Row(
                 
+              
+            child: Column(
+                crossAxisAlignment: CrossAxisAlignment.center,
+              children: <Widget>[
+                Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     Container(
       
-     margin: EdgeInsets.only(top: 35.0, bottom: 9.0,left: 0.0,right: 0.0),
+     margin: EdgeInsets.only(top: 40.0),
      child: Image.asset('Images/skillhublogoo.png',width:80, alignment:Alignment.center)
       ,
       ),
-        Container(
+                Container(
                    alignment: Alignment.center ,
-                   padding: EdgeInsets.fromLTRB(0, 35, 0, 0),
-                   margin: new EdgeInsets.symmetric(vertical:60.0),
+                   padding: EdgeInsets.fromLTRB(0, 40, 0, 0),
+                   margin: new EdgeInsets.symmetric(vertical:70.0),
                   child:
                 new Text('SkillHub' ,style: new TextStyle(
                   fontSize: 47.0,
@@ -75,10 +79,14 @@ class _RegisterState extends State<Register> {
                   fontFamily: 'bold',
                   
                 )),)]),
-                 SizedBox(
+                  
+                SizedBox(
                   height: 20.0,
-                ),
-                 TextFormField(
+                ),  SizedBox(
+                  width: 300,
+                  height: 55.0,
+                  child:
+                   TextFormField(
                   decoration: InputDecoration(
                     
                     hintText: 'User Name',
@@ -101,10 +109,16 @@ class _RegisterState extends State<Register> {
                     });
                   },
                 ),
+                
+                ),
+                  
                 SizedBox(
                   height: 20.0,
                 ),
-                 TextFormField(
+                SizedBox(
+                  width: 300,
+                  height: 55.0,
+                  child:TextFormField(
                   decoration: InputDecoration(
                     
                     hintText: 'Email',
@@ -129,10 +143,16 @@ class _RegisterState extends State<Register> {
                     });
                   },
                 ),
-                 SizedBox(
+                ),
+                   
+                SizedBox(
                   height: 20.0,
                 ),
-                 TextFormField(
+                 SizedBox(
+                   width: 300,
+                  height: 55.0,
+                  child:
+                  TextFormField(
                   decoration: InputDecoration(
                     hintText: 'Mobile Numer',
                      enabledBorder: OutlineInputBorder(
@@ -156,10 +176,15 @@ class _RegisterState extends State<Register> {
                     });
                   },
                 ),
+                ),
+                     
                 SizedBox(
                   height: 20.0,
                 ),
-               TextFormField(
+                SizedBox(
+                  width: 300,
+                  height: 55.0,
+                  child:TextFormField(
                   decoration: InputDecoration(
                     hintText: 'Password',
                      enabledBorder: OutlineInputBorder(
@@ -184,9 +209,15 @@ class _RegisterState extends State<Register> {
                     });
                   },
                 ),
+               
+                ),
                 SizedBox(
                   height: 20.0,
                 ),
+                SizedBox(
+                   width: 300,
+                  height: 40.0,
+                  child:
               RaisedButton.icon(
                   onPressed: () async {
                     if (_formKey.currentState.validate()) {
@@ -206,7 +237,7 @@ class _RegisterState extends State<Register> {
   context,
   MaterialPageRoute(builder: (_) => Splashscreen()))
 .then((_) => Home());
-               
+              
                       }
                     }
                   },
@@ -219,7 +250,7 @@ class _RegisterState extends State<Register> {
                     "Register ",
                     style: TextStyle(color: Color.fromARGB(255, 253, 248, 244)),
                   ),
-                ),
+                ),),
                 SizedBox(
                   height: 12.0,
                 ),
@@ -229,7 +260,7 @@ class _RegisterState extends State<Register> {
                 )
               ],
             )),
-      ));
-    
+      ),
+         ]) );  
   }
 }

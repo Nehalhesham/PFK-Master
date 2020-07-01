@@ -47,14 +47,14 @@ class _SignIn extends State<SignIn> {
         image: DecorationImage(
           image: AssetImage(
               'Images/greybackground.png'),
-          fit: BoxFit.fill,
+          fit: BoxFit.cover,
         ),
-        shape: BoxShape.rectangle,
+        //shape: BoxShape.rectangle,
       ),
       
       
         
-        padding: EdgeInsets.symmetric(vertical: 30.0, horizontal: 50.0),
+        //padding: EdgeInsets.symmetric(vertical: 30.0, horizontal: 50.0),
       
         
 
@@ -65,10 +65,10 @@ class _SignIn extends State<SignIn> {
 
              key: _formKey,
             child: Column(
-              crossAxisAlignment: CrossAxisAlignment.stretch,
+              
               children: <Widget>[
                 Row(
-                
+                mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     Container(
       
@@ -89,10 +89,12 @@ class _SignIn extends State<SignIn> {
                   
                 )),)]),
                  
-                SizedBox(
-                  height: 10.0,
-                ),
-                TextFormField(
+                Container(
+                  margin: EdgeInsets.only(top:30),
+                  width: 300,
+                  height: 50.0,
+                  child:
+                   TextFormField(
                   decoration: InputDecoration(
                     
                     hintText: 'Email',
@@ -116,12 +118,15 @@ class _SignIn extends State<SignIn> {
                     });
                   },
                 ),
-                SizedBox(
-                  
-                 
+                ),
+               SizedBox(
                   height: 20.0,
                 ),
-                TextFormField(
+                SizedBox(
+                  
+                 width: 300,
+                  height: 50.0,
+                  child: TextFormField(
                   decoration: InputDecoration(
                     hintText: 'Password',
                      enabledBorder: OutlineInputBorder(
@@ -145,10 +150,17 @@ class _SignIn extends State<SignIn> {
                     });
                   },
                 ),
+                
+                ),
                 SizedBox(
                   height: 20.0,
                 ),
-                RaisedButton(
+               
+                 SizedBox(
+                   width: 300,
+                  height: 40.0,
+                  child:
+                   RaisedButton(
                   onPressed: () async {
                     if (_formKey.currentState.validate()) {
                       dynamic result =
@@ -174,8 +186,6 @@ class _SignIn extends State<SignIn> {
                   fontFamily: 'bold',),
                   ),
                 ), 
-                 SizedBox(
-                  height: 12.0,
                 ),
               
          
@@ -184,10 +194,14 @@ class _SignIn extends State<SignIn> {
                   style: TextStyle(color: Colors.red, fontSize: 12.0),
                 )
              ,
+             Column(
+               mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                 children: <Widget>[
              Row(
+               mainAxisAlignment: MainAxisAlignment.center,
                    children: <Widget>[
                      new Container(
-                        margin: const EdgeInsets.only(left: 85.0, right: 20.0,top:0),
+                      //  margin: const EdgeInsets.only(left: 85.0, right: 20.0,top:0),
          
                 child:InkWell(
                   onTap: (){
@@ -198,8 +212,12 @@ class _SignIn extends State<SignIn> {
                      )
                      )],
              ),
-
-              Row(children: <Widget>[
+                 SizedBox(
+                  height: 10.0,
+                ),
+              Row(
+                
+                children: <Widget>[
               
             Expanded(
               child: new Container(
@@ -222,6 +240,9 @@ class _SignIn extends State<SignIn> {
                   )),
             ),
           ]),
+           SizedBox(
+                  height: 10.0,
+                ),
          Row(
                mainAxisAlignment: MainAxisAlignment.center,   crossAxisAlignment: CrossAxisAlignment.center,
               
@@ -269,7 +290,7 @@ class _SignIn extends State<SignIn> {
          
             ],
             
-         )),
+         )])),
           
       ),
       
