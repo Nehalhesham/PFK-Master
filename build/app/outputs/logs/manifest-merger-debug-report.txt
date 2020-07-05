@@ -1,0 +1,502 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:1:1-52:12
+INJECTED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:1:1-52:12
+INJECTED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:1:1-52:12
+INJECTED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:1:1-52:12
+MERGED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:1:1-52:12
+MERGED from [:flutter_launch] E:\college\courses\flutter\PFK-Master-master\build\flutter_launch\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_boom_menu] E:\college\courses\flutter\PFK-Master-master\build\flutter_boom_menu\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
+MERGED from [:firebase_auth] E:\college\courses\flutter\PFK-Master-master\build\firebase_auth\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_auth_web] E:\college\courses\flutter\PFK-Master-master\build\firebase_auth_web\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
+MERGED from [:cloud_firestore] E:\college\courses\flutter\PFK-Master-master\build\cloud_firestore\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-15:12
+MERGED from [:cloud_firestore_web] E:\college\courses\flutter\PFK-Master-master\build\cloud_firestore_web\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
+MERGED from [:firebase_database] E:\college\courses\flutter\PFK-Master-master\build\firebase_database\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core] E:\college\courses\flutter\PFK-Master-master\build\firebase_core\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core_web] E:\college\courses\flutter\PFK-Master-master\build\firebase_core_web\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_facebook_login] E:\college\courses\flutter\PFK-Master-master\build\flutter_facebook_login\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
+MERGED from [:url_launcher] E:\college\courses\flutter\PFK-Master-master\build\url_launcher\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-14:12
+MERGED from [:shared_preferences] E:\college\courses\flutter\PFK-Master-master\build\shared_preferences\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
+MERGED from [:url_launcher_web] E:\college\courses\flutter\PFK-Master-master\build\url_launcher_web\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.android:facebook-login:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3ed31e8b203348125781b4057907f328\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\265c9b6d7aa76ab4367e1538c5204492\AndroidManifest.xml:21:1-37:12
+MERGED from [androidx.appcompat:appcompat:1.0.0-rc01] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\61d917fd767ca3d62ba4329483ecb29f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\2e0d322a772c11adce8712eec09dffbe\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3bd4c525acb433b1e17437b9b121cc48\AndroidManifest.xml:15:1-36:12
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3e2108c6e4828124e508866db0f510de\AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\7f008bd92139b935216075dfa98f9ef5\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\a1ec90a65dc2d60d15ff32c8bf6361c8\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\d370c980ca9171262fbd68b04598a59f\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\a06e93aef5c7985d1d5874981c087abd\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\0ec5b38a8a258bd41d8a22db6a3a67bc\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0-rc01] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\97a6366a6486a7878c19173f8828640b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\9162fb0a56a01c9b4c692b6e96cfcce7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.0.0-rc01] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3ce30ad1dceed90cf65261c24c76b89f\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0-rc01] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\0a385114766d8110b4fb408e34b29d1e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0-rc01] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\9b318bc968c210e98aa6db5d8fbc9e46\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-core:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\65aa35f6e60535ffeaf1a7aa370c6254\AndroidManifest.xml:21:1-61:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\2ffb3dfdb2973c4377e6d7dc985393f4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\d2ce8a403f1ac826915b995ed5884443\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\e061899fe96a244debfdeae6166b5e3d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0-rc01] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\f2c85d8d122692c09a4a785a0cb80cc2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\b017bcfe8f2b68c35b1bde67da6270fb\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\33e9b7cb7d6a1200b2c46256c7fd7bd0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\9c47cad2d3ba8406e36e3afd7a3e3d68\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\2af421dd7187f93b5f57b8a9f09c8f4e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\5f65de01095b5be46c552dc671658492\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\525167ca0b6f7a62f148a5ad8cae402b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\cf41ddb2c6ad43de6eca3f4cb386b876\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\e9722736d5e4262de1e2897222b0bb32\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\24b44bc233195027b06ee3d374929db4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\8f1fcce523f2099819b57afcdb42448f\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\cca568ab1c205e3a217fe09aa2ebf7ed\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\32f60d068026198c8ec0869bcc3af51e\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\4bb584b20dfc14943e6c5ca9f6094ef9\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\36c7676bf257e248883e91b777b20d51\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0-rc01] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\4c0bc203929fd95a16c5ecdbe25ca9d5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\b2ed2e0fb6b4417b8a10b9036c461e15\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\53dd457a2e37bda79dfd0ec06b4e3109\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\2bf8e5253988cee6418f82c54706f010\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\0dc81d24f43e18acbe46373c904ac1bf\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\79da7691bdf2b78c04e6227ef4c5a278\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\96cc5ad00df527e5bc18a39c850f23f3\AndroidManifest.xml:17:1-22:12
+MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\d40e71ee4972d66ff24a6db48bc3cdf9\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\8b3eb0507e8d87a7d2dbd217eba5a0f5\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\57ce0dfaad8b275594a49380324b3aa2\AndroidManifest.xml:2:1-11:12
+INJECTED from E:\college\courses\flutter\PFK-Master-master\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from E:\college\courses\flutter\PFK-Master-master\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from E:\college\courses\flutter\PFK-Master-master\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:2:5-30
+		INJECTED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\college\courses\flutter\PFK-Master-master\android\app\src\debug\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml
+		ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:1:1-52:12
+		INJECTED from E:\college\courses\flutter\PFK-Master-master\android\app\src\debug\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml
+		ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:1:1-52:12
+		INJECTED from E:\college\courses\flutter\PFK-Master-master\android\app\src\debug\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:9:3-64
+MERGED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:9:3-64
+MERGED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:9:3-64
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\2e0d322a772c11adce8712eec09dffbe\AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\2e0d322a772c11adce8712eec09dffbe\AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3bd4c525acb433b1e17437b9b121cc48\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3bd4c525acb433b1e17437b9b121cc48\AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:9:20-62
+application
+ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:11:5-51:19
+MERGED from [:firebase_auth] E:\college\courses\flutter\PFK-Master-master\build\firebase_auth\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] E:\college\courses\flutter\PFK-Master-master\build\firebase_auth\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] E:\college\courses\flutter\PFK-Master-master\build\cloud_firestore\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] E:\college\courses\flutter\PFK-Master-master\build\cloud_firestore\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_database] E:\college\courses\flutter\PFK-Master-master\build\firebase_database\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_database] E:\college\courses\flutter\PFK-Master-master\build\firebase_database\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] E:\college\courses\flutter\PFK-Master-master\build\firebase_core\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] E:\college\courses\flutter\PFK-Master-master\build\firebase_core\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-13:19
+MERGED from [:url_launcher] E:\college\courses\flutter\PFK-Master-master\build\url_launcher\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher] E:\college\courses\flutter\PFK-Master-master\build\url_launcher\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-12:19
+MERGED from [com.facebook.android:facebook-login:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3ed31e8b203348125781b4057907f328\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3ed31e8b203348125781b4057907f328\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\265c9b6d7aa76ab4367e1538c5204492\AndroidManifest.xml:28:5-35:19
+MERGED from [com.facebook.android:facebook-common:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\265c9b6d7aa76ab4367e1538c5204492\AndroidManifest.xml:28:5-35:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\2e0d322a772c11adce8712eec09dffbe\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\2e0d322a772c11adce8712eec09dffbe\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3bd4c525acb433b1e17437b9b121cc48\AndroidManifest.xml:28:5-34:19
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3bd4c525acb433b1e17437b9b121cc48\AndroidManifest.xml:28:5-34:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3e2108c6e4828124e508866db0f510de\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3e2108c6e4828124e508866db0f510de\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\7f008bd92139b935216075dfa98f9ef5\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\7f008bd92139b935216075dfa98f9ef5\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\a1ec90a65dc2d60d15ff32c8bf6361c8\AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\a1ec90a65dc2d60d15ff32c8bf6361c8\AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\d370c980ca9171262fbd68b04598a59f\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\d370c980ca9171262fbd68b04598a59f\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\a06e93aef5c7985d1d5874981c087abd\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\a06e93aef5c7985d1d5874981c087abd\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\0ec5b38a8a258bd41d8a22db6a3a67bc\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\0ec5b38a8a258bd41d8a22db6a3a67bc\AndroidManifest.xml:22:5-26:19
+MERGED from [com.facebook.android:facebook-core:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\65aa35f6e60535ffeaf1a7aa370c6254\AndroidManifest.xml:28:5-59:19
+MERGED from [com.facebook.android:facebook-core:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\65aa35f6e60535ffeaf1a7aa370c6254\AndroidManifest.xml:28:5-59:19
+MERGED from [androidx.core:core:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\e9722736d5e4262de1e2897222b0bb32\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\e9722736d5e4262de1e2897222b0bb32\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\4bb584b20dfc14943e6c5ca9f6094ef9\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\4bb584b20dfc14943e6c5ca9f6094ef9\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\e9722736d5e4262de1e2897222b0bb32\AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from [com.facebook.android:facebook-login:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3ed31e8b203348125781b4057907f328\AndroidManifest.xml:28:18-44
+	android:label
+		ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:13:9-33
+	android:icon
+		ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:14:9-43
+	android:name
+		ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:12:9-57
+activity#com.example.pfk.MainActivity
+ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:15:9-26:20
+	android:launchMode
+		ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:17:13-43
+	android:hardwareAccelerated
+		ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:20:13-47
+	android:windowSoftInputMode
+		ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:21:13-55
+	android:configChanges
+		ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:19:13-163
+	android:theme
+		ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:18:13-47
+	android:name
+		ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:16:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:22:13-25:29
+action#android.intent.action.MAIN
+ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:23:17-68
+	android:name
+		ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:24:17-76
+	android:name
+		ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:24:27-74
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:29:5-30:50
+	android:value
+		ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:30:9-48
+	android:name
+		ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:29:16-61
+activity#com.facebook.FacebookActivity
+ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:32:5-35:44
+MERGED from [com.facebook.android:facebook-common:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\265c9b6d7aa76ab4367e1538c5204492\AndroidManifest.xml:29:9-32:66
+MERGED from [com.facebook.android:facebook-common:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\265c9b6d7aa76ab4367e1538c5204492\AndroidManifest.xml:29:9-32:66
+	android:label
+		ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:35:9-41
+	android:configChanges
+		ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:33:9-109
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\265c9b6d7aa76ab4367e1538c5204492\AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:32:15-59
+activity#com.facebook.CustomTabActivity
+ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:36:5-45:16
+MERGED from [com.facebook.android:facebook-common:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\265c9b6d7aa76ab4367e1538c5204492\AndroidManifest.xml:34:9-67
+MERGED from [com.facebook.android:facebook-common:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\265c9b6d7aa76ab4367e1538c5204492\AndroidManifest.xml:34:9-67
+	android:exported
+		ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:38:9-32
+	android:name
+		ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:37:9-54
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/fb_login_protocol_scheme
+ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:39:9-44:25
+action#android.intent.action.VIEW
+ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:40:13-65
+	android:name
+		ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:40:21-62
+category#android.intent.category.DEFAULT
+ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:41:13-72
+	android:name
+		ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:41:23-69
+category#android.intent.category.BROWSABLE
+ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:42:13-74
+	android:name
+		ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:42:23-71
+data
+ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:43:13-71
+	android:scheme
+		ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:43:19-68
+meta-data#flutterEmbedding
+ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:48:9-50:33
+	android:value
+		ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:50:13-30
+	android:name
+		ADDED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml:49:13-44
+uses-sdk
+INJECTED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml
+INJECTED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml
+MERGED from [:flutter_launch] E:\college\courses\flutter\PFK-Master-master\build\flutter_launch\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_launch] E:\college\courses\flutter\PFK-Master-master\build\flutter_launch\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_boom_menu] E:\college\courses\flutter\PFK-Master-master\build\flutter_boom_menu\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_boom_menu] E:\college\courses\flutter\PFK-Master-master\build\flutter_boom_menu\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] E:\college\courses\flutter\PFK-Master-master\build\firebase_auth\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] E:\college\courses\flutter\PFK-Master-master\build\firebase_auth\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth_web] E:\college\courses\flutter\PFK-Master-master\build\firebase_auth_web\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth_web] E:\college\courses\flutter\PFK-Master-master\build\firebase_auth_web\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] E:\college\courses\flutter\PFK-Master-master\build\cloud_firestore\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] E:\college\courses\flutter\PFK-Master-master\build\cloud_firestore\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore_web] E:\college\courses\flutter\PFK-Master-master\build\cloud_firestore_web\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore_web] E:\college\courses\flutter\PFK-Master-master\build\cloud_firestore_web\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_database] E:\college\courses\flutter\PFK-Master-master\build\firebase_database\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_database] E:\college\courses\flutter\PFK-Master-master\build\firebase_database\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] E:\college\courses\flutter\PFK-Master-master\build\firebase_core\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] E:\college\courses\flutter\PFK-Master-master\build\firebase_core\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core_web] E:\college\courses\flutter\PFK-Master-master\build\firebase_core_web\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core_web] E:\college\courses\flutter\PFK-Master-master\build\firebase_core_web\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_facebook_login] E:\college\courses\flutter\PFK-Master-master\build\flutter_facebook_login\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_facebook_login] E:\college\courses\flutter\PFK-Master-master\build\flutter_facebook_login\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] E:\college\courses\flutter\PFK-Master-master\build\url_launcher\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] E:\college\courses\flutter\PFK-Master-master\build\url_launcher\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] E:\college\courses\flutter\PFK-Master-master\build\shared_preferences\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] E:\college\courses\flutter\PFK-Master-master\build\shared_preferences\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_web] E:\college\courses\flutter\PFK-Master-master\build\url_launcher_web\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_web] E:\college\courses\flutter\PFK-Master-master\build\url_launcher_web\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.android:facebook-login:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3ed31e8b203348125781b4057907f328\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3ed31e8b203348125781b4057907f328\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\265c9b6d7aa76ab4367e1538c5204492\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\265c9b6d7aa76ab4367e1538c5204492\AndroidManifest.xml:24:5-26:41
+MERGED from [androidx.appcompat:appcompat:1.0.0-rc01] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\61d917fd767ca3d62ba4329483ecb29f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0-rc01] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\61d917fd767ca3d62ba4329483ecb29f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\2e0d322a772c11adce8712eec09dffbe\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\2e0d322a772c11adce8712eec09dffbe\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3bd4c525acb433b1e17437b9b121cc48\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3bd4c525acb433b1e17437b9b121cc48\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3e2108c6e4828124e508866db0f510de\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3e2108c6e4828124e508866db0f510de\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\7f008bd92139b935216075dfa98f9ef5\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\7f008bd92139b935216075dfa98f9ef5\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\a1ec90a65dc2d60d15ff32c8bf6361c8\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\a1ec90a65dc2d60d15ff32c8bf6361c8\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\d370c980ca9171262fbd68b04598a59f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\d370c980ca9171262fbd68b04598a59f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\a06e93aef5c7985d1d5874981c087abd\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\a06e93aef5c7985d1d5874981c087abd\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\0ec5b38a8a258bd41d8a22db6a3a67bc\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\0ec5b38a8a258bd41d8a22db6a3a67bc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0-rc01] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\97a6366a6486a7878c19173f8828640b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0-rc01] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\97a6366a6486a7878c19173f8828640b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\9162fb0a56a01c9b4c692b6e96cfcce7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\9162fb0a56a01c9b4c692b6e96cfcce7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0-rc01] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3ce30ad1dceed90cf65261c24c76b89f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0-rc01] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3ce30ad1dceed90cf65261c24c76b89f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0-rc01] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\0a385114766d8110b4fb408e34b29d1e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0-rc01] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\0a385114766d8110b4fb408e34b29d1e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0-rc01] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\9b318bc968c210e98aa6db5d8fbc9e46\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0-rc01] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\9b318bc968c210e98aa6db5d8fbc9e46\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-core:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\65aa35f6e60535ffeaf1a7aa370c6254\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\65aa35f6e60535ffeaf1a7aa370c6254\AndroidManifest.xml:24:5-26:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\2ffb3dfdb2973c4377e6d7dc985393f4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\2ffb3dfdb2973c4377e6d7dc985393f4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\d2ce8a403f1ac826915b995ed5884443\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\d2ce8a403f1ac826915b995ed5884443\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\e061899fe96a244debfdeae6166b5e3d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\e061899fe96a244debfdeae6166b5e3d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0-rc01] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\f2c85d8d122692c09a4a785a0cb80cc2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0-rc01] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\f2c85d8d122692c09a4a785a0cb80cc2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\b017bcfe8f2b68c35b1bde67da6270fb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\b017bcfe8f2b68c35b1bde67da6270fb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\33e9b7cb7d6a1200b2c46256c7fd7bd0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\33e9b7cb7d6a1200b2c46256c7fd7bd0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\9c47cad2d3ba8406e36e3afd7a3e3d68\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\9c47cad2d3ba8406e36e3afd7a3e3d68\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\2af421dd7187f93b5f57b8a9f09c8f4e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\2af421dd7187f93b5f57b8a9f09c8f4e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\5f65de01095b5be46c552dc671658492\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\5f65de01095b5be46c552dc671658492\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\525167ca0b6f7a62f148a5ad8cae402b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\525167ca0b6f7a62f148a5ad8cae402b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\cf41ddb2c6ad43de6eca3f4cb386b876\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\cf41ddb2c6ad43de6eca3f4cb386b876\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\e9722736d5e4262de1e2897222b0bb32\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\e9722736d5e4262de1e2897222b0bb32\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\24b44bc233195027b06ee3d374929db4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\24b44bc233195027b06ee3d374929db4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\8f1fcce523f2099819b57afcdb42448f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\8f1fcce523f2099819b57afcdb42448f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\cca568ab1c205e3a217fe09aa2ebf7ed\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\cca568ab1c205e3a217fe09aa2ebf7ed\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\32f60d068026198c8ec0869bcc3af51e\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\32f60d068026198c8ec0869bcc3af51e\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\4bb584b20dfc14943e6c5ca9f6094ef9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\4bb584b20dfc14943e6c5ca9f6094ef9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\36c7676bf257e248883e91b777b20d51\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\36c7676bf257e248883e91b777b20d51\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0-rc01] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\4c0bc203929fd95a16c5ecdbe25ca9d5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0-rc01] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\4c0bc203929fd95a16c5ecdbe25ca9d5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\b2ed2e0fb6b4417b8a10b9036c461e15\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\b2ed2e0fb6b4417b8a10b9036c461e15\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\53dd457a2e37bda79dfd0ec06b4e3109\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\53dd457a2e37bda79dfd0ec06b4e3109\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\2bf8e5253988cee6418f82c54706f010\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\2bf8e5253988cee6418f82c54706f010\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\0dc81d24f43e18acbe46373c904ac1bf\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\0dc81d24f43e18acbe46373c904ac1bf\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\79da7691bdf2b78c04e6227ef4c5a278\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\79da7691bdf2b78c04e6227ef4c5a278\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\96cc5ad00df527e5bc18a39c850f23f3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\96cc5ad00df527e5bc18a39c850f23f3\AndroidManifest.xml:20:5-44
+MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\d40e71ee4972d66ff24a6db48bc3cdf9\AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\d40e71ee4972d66ff24a6db48bc3cdf9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\8b3eb0507e8d87a7d2dbd217eba5a0f5\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\8b3eb0507e8d87a7d2dbd217eba5a0f5\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\57ce0dfaad8b275594a49380324b3aa2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\57ce0dfaad8b275594a49380324b3aa2\AndroidManifest.xml:7:5-9:41
+INJECTED from E:\college\courses\flutter\PFK-Master-master\android\app\src\debug\AndroidManifest.xml
+INJECTED from E:\college\courses\flutter\PFK-Master-master\android\app\src\debug\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\college\courses\flutter\PFK-Master-master\android\app\src\debug\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\college\courses\flutter\PFK-Master-master\android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\college\courses\flutter\PFK-Master-master\android\app\src\debug\AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_auth] E:\college\courses\flutter\PFK-Master-master\build\firebase_auth\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] E:\college\courses\flutter\PFK-Master-master\build\cloud_firestore\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] E:\college\courses\flutter\PFK-Master-master\build\cloud_firestore\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_database] E:\college\courses\flutter\PFK-Master-master\build\firebase_database\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_database] E:\college\courses\flutter\PFK-Master-master\build\firebase_database\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] E:\college\courses\flutter\PFK-Master-master\build\firebase_core\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] E:\college\courses\flutter\PFK-Master-master\build\firebase_core\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\2e0d322a772c11adce8712eec09dffbe\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\2e0d322a772c11adce8712eec09dffbe\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3bd4c525acb433b1e17437b9b121cc48\AndroidManifest.xml:29:9-33:19
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3bd4c525acb433b1e17437b9b121cc48\AndroidManifest.xml:29:9-33:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3e2108c6e4828124e508866db0f510de\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3e2108c6e4828124e508866db0f510de\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\a1ec90a65dc2d60d15ff32c8bf6361c8\AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\a1ec90a65dc2d60d15ff32c8bf6361c8\AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\2e0d322a772c11adce8712eec09dffbe\AndroidManifest.xml:19:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\a1ec90a65dc2d60d15ff32c8bf6361c8\AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\a1ec90a65dc2d60d15ff32c8bf6361c8\AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [:firebase_auth] E:\college\courses\flutter\PFK-Master-master\build\firebase_auth\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:8:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_auth] E:\college\courses\flutter\PFK-Master-master\build\firebase_auth\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_auth] E:\college\courses\flutter\PFK-Master-master\build\firebase_auth\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_auth] E:\college\courses\flutter\PFK-Master-master\build\firebase_auth\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:10:17-122
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar
+ADDED from [:cloud_firestore] E:\college\courses\flutter\PFK-Master-master\build\cloud_firestore\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:cloud_firestore] E:\college\courses\flutter\PFK-Master-master\build\cloud_firestore\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:cloud_firestore] E:\college\courses\flutter\PFK-Master-master\build\cloud_firestore\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:10:17-133
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_database] E:\college\courses\flutter\PFK-Master-master\build\firebase_database\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_database] E:\college\courses\flutter\PFK-Master-master\build\firebase_database\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_database] E:\college\courses\flutter\PFK-Master-master\build\firebase_database\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:10:17-127
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_core] E:\college\courses\flutter\PFK-Master-master\build\firebase_core\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_core] E:\college\courses\flutter\PFK-Master-master\build\firebase_core\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_core] E:\college\courses\flutter\PFK-Master-master\build\firebase_core\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:10:17-123
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher] E:\college\courses\flutter\PFK-Master-master\build\url_launcher\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:8:9-11:74
+	android:exported
+		ADDED from [:url_launcher] E:\college\courses\flutter\PFK-Master-master\build\url_launcher\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [:url_launcher] E:\college\courses\flutter\PFK-Master-master\build\url_launcher\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:13-71
+	android:name
+		ADDED from [:url_launcher] E:\college\courses\flutter\PFK-Master-master\build\url_launcher\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:9:13-74
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\265c9b6d7aa76ab4367e1538c5204492\AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\265c9b6d7aa76ab4367e1538c5204492\AndroidManifest.xml:33:19-68
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\2e0d322a772c11adce8712eec09dffbe\AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3bd4c525acb433b1e17437b9b121cc48\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3bd4c525acb433b1e17437b9b121cc48\AndroidManifest.xml:25:5-79
+MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\d40e71ee4972d66ff24a6db48bc3cdf9\AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\d40e71ee4972d66ff24a6db48bc3cdf9\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\2e0d322a772c11adce8712eec09dffbe\AndroidManifest.xml:13:22-76
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\2e0d322a772c11adce8712eec09dffbe\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\2e0d322a772c11adce8712eec09dffbe\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\2e0d322a772c11adce8712eec09dffbe\AndroidManifest.xml:21:17-111
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3bd4c525acb433b1e17437b9b121cc48\AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3bd4c525acb433b1e17437b9b121cc48\AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3bd4c525acb433b1e17437b9b121cc48\AndroidManifest.xml:31:17-109
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3e2108c6e4828124e508866db0f510de\AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3e2108c6e4828124e508866db0f510de\AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3e2108c6e4828124e508866db0f510de\AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3e2108c6e4828124e508866db0f510de\AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3e2108c6e4828124e508866db0f510de\AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3e2108c6e4828124e508866db0f510de\AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3e2108c6e4828124e508866db0f510de\AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3e2108c6e4828124e508866db0f510de\AndroidManifest.xml:25:13-85
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3e2108c6e4828124e508866db0f510de\AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3e2108c6e4828124e508866db0f510de\AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\3e2108c6e4828124e508866db0f510de\AndroidManifest.xml:37:17-109
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\a1ec90a65dc2d60d15ff32c8bf6361c8\AndroidManifest.xml:26:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\a1ec90a65dc2d60d15ff32c8bf6361c8\AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\a1ec90a65dc2d60d15ff32c8bf6361c8\AndroidManifest.xml:29:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\a1ec90a65dc2d60d15ff32c8bf6361c8\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\a1ec90a65dc2d60d15ff32c8bf6361c8\AndroidManifest.xml:27:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\d370c980ca9171262fbd68b04598a59f\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\d370c980ca9171262fbd68b04598a59f\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\d370c980ca9171262fbd68b04598a59f\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\d370c980ca9171262fbd68b04598a59f\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\0ec5b38a8a258bd41d8a22db6a3a67bc\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\0ec5b38a8a258bd41d8a22db6a3a67bc\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\0ec5b38a8a258bd41d8a22db6a3a67bc\AndroidManifest.xml:24:13-58
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\65aa35f6e60535ffeaf1a7aa370c6254\AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\65aa35f6e60535ffeaf1a7aa370c6254\AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\65aa35f6e60535ffeaf1a7aa370c6254\AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\65aa35f6e60535ffeaf1a7aa370c6254\AndroidManifest.xml:40:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\65aa35f6e60535ffeaf1a7aa370c6254\AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\65aa35f6e60535ffeaf1a7aa370c6254\AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\65aa35f6e60535ffeaf1a7aa370c6254\AndroidManifest.xml:45:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\65aa35f6e60535ffeaf1a7aa370c6254\AndroidManifest.xml:47:13-49:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\65aa35f6e60535ffeaf1a7aa370c6254\AndroidManifest.xml:48:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\65aa35f6e60535ffeaf1a7aa370c6254\AndroidManifest.xml:48:25-92
+receiver#com.facebook.CampaignTrackingReceiver
+ADDED from [com.facebook.android:facebook-core:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\65aa35f6e60535ffeaf1a7aa370c6254\AndroidManifest.xml:51:9-58:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\65aa35f6e60535ffeaf1a7aa370c6254\AndroidManifest.xml:53:13-36
+	android:permission
+		ADDED from [com.facebook.android:facebook-core:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\65aa35f6e60535ffeaf1a7aa370c6254\AndroidManifest.xml:54:13-69
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\65aa35f6e60535ffeaf1a7aa370c6254\AndroidManifest.xml:52:13-65
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.facebook.android:facebook-core:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\65aa35f6e60535ffeaf1a7aa370c6254\AndroidManifest.xml:55:13-57:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.facebook.android:facebook-core:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\65aa35f6e60535ffeaf1a7aa370c6254\AndroidManifest.xml:56:17-79
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.5.1] C:\Users\Nezu\.gradle\caches\transforms-2\files-2.1\65aa35f6e60535ffeaf1a7aa370c6254\AndroidManifest.xml:56:25-76
